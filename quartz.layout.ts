@@ -7,7 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/sys27"
+      GitHub: "https://github.com/sys27",
+      LinkedIn: "https://www.linkedin.com/in/dmytrokyshchenko/",
     },
   }),
 }
@@ -28,6 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.RecentNotes({
+      title: "Recent Notes",
+      limit: 5,
+    })),
   ],
 }
 

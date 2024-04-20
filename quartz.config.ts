@@ -12,7 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: false,
     analytics: {
-      provider: "plausible",
+      provider: 'google',
+      tagId: 'G-NHCGSB2X5L'
     },
     locale: "en-US",
     baseUrl: "exploding-kitten.com",
