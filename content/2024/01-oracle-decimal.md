@@ -1,5 +1,6 @@
 ---
 title: "Oracle ADO.NET Provider: Specified cast is not valid"
+tags: c-sharp, oracle
 ---
 
 Hello there.

@@ -29,10 +29,10 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.RecentNotes({
+    Component.RecentNotes({
       title: "Recent Notes",
       limit: 5,
-    })),
+    }),
   ],
 }
 
