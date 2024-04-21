@@ -1,6 +1,6 @@
 ### Hello there
 
-- ⚙️ I'm a senior software engineer
+- ⚙️ My name is Dmytro Kyshchenko. I'm a senior software engineer
 - 🤟 I daily use .NET, C#, Docker, terminal.
 - 🌱 I’m currently learning DevOps
 - 💬 Ask me about .NET, C#, ASP.NET, Docker, software design, development
