@@ -9,6 +9,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/sys27",
       LinkedIn: "https://www.linkedin.com/in/dmytrokyshchenko/",
+      StackOverflow: "https://stackoverflow.com/users/743754/exploding-kitten",
     },
   }),
 }
