@@ -36,7 +36,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4.0.2
       - name: Install packages
-        run: npm i
+        run: npm ci
       - name: Build with Quartz
         run: npx quartz build
       - name: Upload artifact
