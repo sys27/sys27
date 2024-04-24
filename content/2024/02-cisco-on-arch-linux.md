@@ -1,6 +1,7 @@
 ---
 title: Cisco VPN on Arch Linux
 tags: cisco, linux, archlinux
+date: 2024-04-24
 ---
 
 Hello there.
