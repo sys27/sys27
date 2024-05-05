@@ -1,5 +1,6 @@
 ---
 title: My Pihole Setup
+description: Explore setting up Pi-hole, a network-level ad-blocking app. Learn how to deploy Pi-hole with Docker, including Unbound DNS resolver and DHCP relay.
 tags: pihole, dns
 date: 2024-05-01
 ---

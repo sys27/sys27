@@ -1,12 +1,13 @@
 ---
 title: "Oracle ADO.NET Provider: Specified cast is not valid"
+description: Dealing with InvalidCastException from Oracle provider due to precision mismatch. Learn fixes using SuppressGetDecimalInvalidCastException or OracleDecimal.
 tags: c-sharp, .net, oracle
 date: 2024-04-20
 ---
 
 Hello there.
 
-Sometimes the Oracle provider throws the `InvalidCastException` exception and usually it is pretty easy to fix. Because this exception means you have a mismatch between your code and the type of the column in your database. For example, it could be a simple reading from ADO.NET API:
+Sometimes the Oracle provider throws the `InvalidCastException` exception and usually it is pretty easy to fix. This exception means you have a mismatch between your code and the type of the column in your database. For example, it could be a simple reading from ADO.NET API:
 
 ```csharp
 var reader = command.ExecuteReader();

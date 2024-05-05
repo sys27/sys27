@@ -1,5 +1,6 @@
 ---
 title: Cisco VPN on Arch Linux
+description: Resolving Cisco VPN client crashes on Arch-based Linux due to libxml2 version conflict. Learn how to build and use an older version of libxml2.
 tags: cisco, linux, archlinux
 date: 2024-04-24
 ---
