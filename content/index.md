@@ -1,5 +1,6 @@
 ---
-title: Index
+title: Exploding Kitten's Blog
+description: Purrr-fectly crafted articles on programming adventures.
 date: 2024-04-20
 ---
 
