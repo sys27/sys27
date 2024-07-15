@@ -34,7 +34,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Install Node.js
-        uses: actions/setup-node@v4.0.2
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
       - name: Install packages
         run: npm ci
       - name: Build with Quartz
