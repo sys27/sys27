@@ -39,7 +39,7 @@ It is especially useful in the debug mode:
 .ConfigureWarnings(w =>
 {
 #if DEBUG
-    w.Throw(Microsoft.EntityFrameworkCore.Diagnostics.RelationalEventId.MultipleCollectionIncludeWarning);
+    w.Throw(RelationalEventId.MultipleCollectionIncludeWarning);
 #endif
 });
 ```
