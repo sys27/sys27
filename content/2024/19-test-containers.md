@@ -1,6 +1,6 @@
 ---
 title: How to use `Testcontainers` to run integration tests on GitHub Actions
-description: 
+description: How to use `Testcontainers` to run integration tests on GitHub Actions
 tags: .net, dotnet, testcontainers, docker, github
 date: 2024-10-21
 ---
