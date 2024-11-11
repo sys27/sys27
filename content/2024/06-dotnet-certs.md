@@ -1,7 +1,7 @@
 ---
 title: .NET SSL certificates on Linux
 description: This article explains how to create your CA, certificates, and configure .NET to use them for HTTPS/SSL.
-tags: .net, asp.net, ssl, linux, archlinux
+tags: dotnet, asp.net, ssl, linux, archlinux
 date: 2024-05-21
 ---
 

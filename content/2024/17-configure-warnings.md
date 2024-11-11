@@ -1,7 +1,7 @@
 ---
 title: "TIL: `ConfigureWarnings` in EF Core"
 description: "The introduction of the ConfigureWarnings method in EF Core, which allows developers to control how EF Core handles specific diagnostic events."
-tags: .net, ef-core
+tags: dotnet, ef-core
 date: 2024-09-29
 ---
 

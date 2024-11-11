@@ -1,7 +1,7 @@
 ---
 title: How to build multi-arch docker .NET image in GitHub Actions
 description: Learn to build multi-arch docker .NET images in GitHub Actions.
-tags: .net, aspnetcore, docker, github
+tags: dotnet, aspnetcore, docker, github
 date: 2024-07-27
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: UseSpa with minimal APIs in ASP.NET Core
 description: How to integrate Angular with ASP.NET Core minimal APIs using UseSpa.
-tags: .net, c-sharp, aspnetcore, spa, angular
+tags: dotnet, c-sharp, aspnetcore, spa, angular
 date: 2024-06-10
 ---
 

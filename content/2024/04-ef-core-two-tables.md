@@ -1,6 +1,6 @@
 ---
 title: How to map a table to two entities in EF Core
-tags: .net, ef-core, sql
+tags: dotnet, ef-core, sql
 date: 2024-05-08
 description: Discover EF Core's feature of mapping a single table to multiple entities and potential pitfalls.
 ---
