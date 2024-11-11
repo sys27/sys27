@@ -1,7 +1,7 @@
 ---
 title: How to host a git repository in ASP.NET Core. Part 1
 description: Learn how to host a git repository using ASP.NET Core, exploring protocols and implementing authentication for complete repository management.
-tags: git, c-sharp, .net, aspnetcore
+tags: git, c-sharp, dotnet, aspnetcore
 date: 2024-07-10
 ---
 

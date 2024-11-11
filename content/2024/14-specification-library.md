@@ -1,7 +1,7 @@
 ---
 title: Specification Pattern and why I wouldn't say I like the Ardalis.Specification library
 description: Ardalis.Specification and DDD
-tags: .net, ddd, specification
+tags: dotnet, ddd, specification
 date: 2024-08-28
 ---
 

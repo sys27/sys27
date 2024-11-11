@@ -1,7 +1,7 @@
 ---
 title: I don't like target-typed new expressions in C#
 description: The target-typed new tries to simplify and remove boilerplate code but makes it less readable.
-tags: .net, c-sharp
+tags: dotnet, c-sharp
 date: 2024-06-07
 ---
 

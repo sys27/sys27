@@ -1,7 +1,7 @@
 ---
 title: "Pyro Project: Announcement"
 description: "The announcement of Pyro Project - a platform designed to manage and collaborate on code, repositories, issues, and pull requests."
-tags: .net, aspnetcore, docker, git, ci-cd, pyro
+tags: dotnet, aspnetcore, docker, git, ci-cd, pyro
 date: 2024-07-29
 ---
 

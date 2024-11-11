@@ -1,7 +1,7 @@
 ---
 title: "Oracle ADO.NET Provider: Specified cast is not valid"
 description: Dealing with InvalidCastException from Oracle provider due to precision mismatch. Learn fixes using SuppressGetDecimalInvalidCastException or OracleDecimal.
-tags: c-sharp, .net, oracle
+tags: c-sharp, dotnet, oracle
 date: 2024-04-20
 ---
 

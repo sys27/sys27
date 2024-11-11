@@ -1,7 +1,7 @@
 ---
 title: How to map GUID to BLOB in EF Core SQLite
 description: Starting with EF Core 3.0, GUIDs are stored as TEXT in SQLite. Use a custom value converter to store them as BLOB by converting GUIDs to byte arrays.
-tags: .net, ef-core, sql, sqlite
+tags: dotnet, ef-core, sql, sqlite
 date: 2024-08-11
 ---
 
