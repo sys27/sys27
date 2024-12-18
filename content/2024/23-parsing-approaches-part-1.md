@@ -2,13 +2,13 @@
 title: "Parsers Part 1: A Journey from Tokens to Syntax Trees"
 description: The fundamentals of parsing, from tokenization to syntax trees.
 tags: lexing, parsing, compilers
-date: 2024-12-13
+date: 2024-12-18
 ---
-
-Hello there!
 
 Series:
 - [Parsers Part 1: A Journey from Tokens to Syntax Trees (this post)](./23-parsing-approaches-part-1.md)
+
+Hello there!
 
 # Intro
 
