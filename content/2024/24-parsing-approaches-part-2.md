@@ -2,7 +2,7 @@
 title: "Parsers Part 2: Understanding Recursive Descent Parser"
 description: Learn how recursive descent parsers work, their advantages, challenges like left recursion, and why they’re ideal for custom parsing in this article.
 tags: lexing, parsing, compilers
-date: 2024-12-11
+date: 2025-01-16
 ---
 
 Series:
@@ -21,11 +21,11 @@ There are two major types of parsers. Top-down (LL) and Bottom-up (LR) and I wil
 
 ## Top-down (LL) parsers
 
-Top-down parsers start the parsing from the root grammar rule, match it against input, and go to nested rules. It builds an Abstract Syntax Tree (AST) from top to bottom, and processes input from left to right. We already looked at the example of such a parser in the [previous article](./23-parsing-approaches-part-1.md). Our parser analysed `EXPRESSION` rule, then `ADD` rule, then `MUL` rule, etc.
+Top-down parsers start the parsing from the root grammar rule, match it against input, and go to nested rules. It builds an Abstract Syntax Tree (AST) from top to bottom, and processes input from left to right. We already looked at the example of such a parser in the [previous article](./23-parsing-approaches-part-1.md). Our parser analyzed `EXPRESSION` rule, then `ADD` rule, then `MUL` rule, etc.
 
 Top-down parsers are good for small hand implementations and own programming languages. It's easy to understand how they work and how to implement them even if you have limited knowledge about parsers at all.
 
-But they aren't perfect. They have one big disadvantage - left recursion. The left recursion in a specific type of grammar rule where a rule contains a reference to itselft. So, it could create indefinite recursions.
+But they aren't perfect. They have one big disadvantage - left recursion. The left recursion is a specific type of grammar rule where a rule contains a reference to itself. So, it could create indefinite recursions.
 
 Let's look at the following rule:
 
@@ -36,7 +36,7 @@ ADD = ADD + NUMBER
 
 At first glance, it is ok. Because it allows our parser to analyze more than our addition like: `2 + 2 + 2`. But if we try to build a top-down parser for such grammar, we will face the left recursion problem. To parse the `ADD` rule, we need to parse the `ADD` rule... and so on.
 
-There is a solution for this problem and usually it requires to rewrite your grammar a little bit like so:
+There is a solution for this problem and usually, it requires rewriting your grammar a little bit like so:
 
 ```
 ADD = NUMBER + ADD
@@ -47,9 +47,9 @@ This grammar doesn't have a left recursion but still supports multiple addition 
 
 ## Bottom-up (LR) parsers
 
-The alternative to top-down parsers is bottom-up. Whereas a top-down parser analyzes input starting from "top level" structures and on each step goes deeper and deeper. Bottom-up parsers work in the opposite way. It starts from the deepest level rule and finds its way to the top.
+The alternative to top-down parsers is bottom-up. Whereas a top-down parser analyzes input starting from "top-level" structures and on each step goes deeper and deeper. Bottom-up parsers work in the opposite way. It starts from the deepest level rule and finds its way to the top.
 
-One of benefits of bottom-up parsers, it can handle left recursive rules but as you saw in the previous section, even top-down parsers have an easy workaround to fix this problem.
+One of the benefits of bottom-up parsers, they can handle left recursive rules but as you saw in the previous section, even top-down parsers have an easy workaround to fix this problem.
 
 In this series, I won't explain the details of how bottom-up parsers work and how to build them.
 
