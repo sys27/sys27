@@ -7,6 +7,7 @@ date: 2024-12-18
 
 Series:
 - [Parsers Part 1: A Journey from Tokens to Syntax Trees (this post)](./23-parsing-approaches-part-1.md)
+- [Parsers Part 2: Understanding Recursive Descent Parser](./24-parsing-approaches-part-2.md)
 
 Hello there!
 
