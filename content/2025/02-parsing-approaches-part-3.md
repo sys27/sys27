@@ -7,8 +7,8 @@ date: 2025-02-02
 
 Series:
 - [Parsers Part 1: A Journey from Tokens to Syntax Trees](../2024/23-parsing-approaches-part-1.md)
-- [Parsers Part 2: Understanding Recursive Descent Parser](./24-parsing-approaches-part-2.md)
-- [Parsers Part 3: Reverse Polish Notation (this post)](./25-parsing-approaches-part-3.md)
+- [Parsers Part 2: Understanding Recursive Descent Parser](./01-parsing-approaches-part-2.md)
+- [Parsers Part 3: Reverse Polish Notation (this post)](./02-parsing-approaches-part-3.md)
 
 Hello there!
 
