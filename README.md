@@ -29,6 +29,6 @@ Interested in DevOps and Cloud Infrastructure, I have experience configuring Azu
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/95931bdd-b1bd-4210-a877-ce27175c80c5/public_url)
 - [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/23a032b4-a34c-4e08-ac84-b8844e0d4c35/public_url)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sys27&hide=contribs&theme=dark)
+![GitHub Stats](https://github-readme-stats-zeta-three-50.vercel.app/api?username=sys27&hide=contribs&theme=dark)
 
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
+![Languages](https://github-readme-stats-zeta-three-50.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
