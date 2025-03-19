@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { isFolderPath } from "./quartz/util/path";
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -48,6 +49,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.RecentNotes({
       title: "Recent Notes",
       limit: 5,
+      filter: data => !isFolderPath(data.slug ?? ""),
     }),
   ],
 }
