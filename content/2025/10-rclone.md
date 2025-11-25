@@ -1,5 +1,5 @@
 ---
-title: "TIL: `rclone`"
+title: "TIL: rclone"
 description: "How I used rclone to automate syncing between cloud storage services and my home lab."
 tags: diy, homelab, rclone, dropbox, google-drive
 date: 2025-11-25
