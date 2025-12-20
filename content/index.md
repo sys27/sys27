@@ -5,7 +5,12 @@ date: 2024-04-20
 enableToc: false
 ---
 
-### Hello there
+## Dmytro Kyshchenko (he/him) 👋
+Senior .NET Software Engineer • Cloud & DevOps enthusiast
+
+[📄 CV](https://docs.google.com/document/d/1G73k758JouTJtwWKs7UGrJSbmy3Yr9Tobm_BnDlQALI/edit?usp=sharing) · [💼 LinkedIn](https://www.linkedin.com/in/dmytrokyshchenko/) · [📝 Blog](https://exploding-kitten.com/)
+
+### About me
 
 My name is Dmytro Kyshchenko (he/him). I'm an experienced Senior .NET Software Engineer with over 6 years of hands-on expertise in designing, developing, and maintaining complex software projects. Committed to the highest code quality standards and dedicated to delivering clean, efficient, and maintainable code.
 
@@ -22,13 +27,7 @@ Interested in DevOps and Cloud Infrastructure, I have experience configuring Azu
 - Design Patterns (GoF, SOLID), DDD
 - Other languages: Go, Python, F#
 
-### Links
-
-- [CV](https://docs.google.com/document/d/1G73k758JouTJtwWKs7UGrJSbmy3Yr9Tobm_BnDlQALI/edit?usp=sharing)
-- [Blog](https://exploding-kitten.com/)
-- [LinkedIn](https://www.linkedin.com/in/dmytrokyshchenko/)
-
-### Certificates
+### Certifications
 
 - [Azure Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/DmytroKyshchenko-8021/1234C8177D5B1202?sharingId=C74EE12E2106C54A)
 - [Azure Administrator Associate](https://learn.microsoft.com/api/credentials/share/en-us/DmytroKyshchenko-8021/27B98D54BBCD77CE?sharingId=C74EE12E2106C54A)
@@ -36,6 +35,8 @@ Interested in DevOps and Cloud Infrastructure, I have experience configuring Azu
 - [AWS Certified Cloud Practitioner](https://www.credly.com/badges/95931bdd-b1bd-4210-a877-ce27175c80c5/public_url)
 - [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/23a032b4-a34c-4e08-ac84-b8844e0d4c35/public_url)
 
+### GitHub stats
+
 ![GitHub Stats](https://github-readme-stats-zeta-three-50.vercel.app/api?username=sys27&hide=contribs&theme=dark)
 
-![Languages](https://github-readme-stats-zeta-three-50.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
+![Top Languages](https://github-readme-stats-zeta-three-50.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
