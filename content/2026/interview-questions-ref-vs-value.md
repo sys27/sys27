@@ -1,7 +1,7 @@
 ---
 title: The "Reference vs Value Types" Interview Question Is Outdated
 description: For years, .NET interviews have asked the same question. What’s the difference between reference and value types? Let’s look at why the question became popular, why it no longer reflects real-world development, and what interviewers should ask instead.
-tags: .net, interview
+tags: dotnet, interview
 date: 2026-03-07
 ---
 
