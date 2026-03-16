@@ -62,7 +62,7 @@
     "micromorph": "^0.4.5",
     "minimatch": "^10.2.4",
     "pixi.js": "^8.17.0",
-    "preact": "^10.28.4",
+    "preact": "^10.29.0",
     "preact-render-to-string": "^6.6.6",
     "pretty-bytes": "^7.1.0",
     "pretty-time": "^1.1.0",
