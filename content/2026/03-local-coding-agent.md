@@ -2,7 +2,7 @@
 title: The state of local coding agents
 description:
 tags: diy, homelab, ai, llm, coding-agent
-date: 2026-04-09
+date: 2026-04-10
 ---
 
 Hello there!
