@@ -145,11 +145,6 @@ plugins:
       position: left
       priority: 50
       display: desktop-only
-  - source: github:quartz-community/graph
-    enabled: false
-    layout:
-      position: right
-      priority: 10
   - source: github:quartz-community/search
     enabled: true
     layout:
