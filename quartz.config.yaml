@@ -124,6 +124,7 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+      includeEmptyFiles: false
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
