@@ -53,7 +53,7 @@
     "micromorph": "^0.4.5",
     "minimatch": "^10.2.3",
     "preact": "^10.28.2",
-    "preact-render-to-string": "^6.6.5",
+    "preact-render-to-string": "^6.7.0",
     "pretty-bytes": "^7.1.0",
     "pretty-time": "^1.1.0",
     "remark-parse": "^11.0.0",
