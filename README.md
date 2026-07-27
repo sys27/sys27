@@ -30,6 +30,6 @@ Interested in DevOps and Cloud Infrastructure, I have experience configuring Azu
 
 ### GitHub stats
 
-![GitHub Stats](https://github-readme-stats-zeta-three-50.vercel.app/api?username=sys27&hide=contribs&theme=dark)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=sys27&hide=contribs&theme=dark)
 
-![Top Languages](https://github-readme-stats-zeta-three-50.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=sys27&layout=compact&theme=dark)
