@@ -46,7 +46,7 @@
     "chokidar": "^5.0.0",
     "esbuild-sass-plugin": "^3.6.0",
     "github-slugger": "^2.0.0",
-    "globby": "^16.2.0",
+    "globby": "^16.2.2",
     "hast-util-to-jsx-runtime": "^2.3.6",
     "isomorphic-git": "^1.36.3",
     "lightningcss": "^1.33.0",
