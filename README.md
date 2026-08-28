@@ -5,6 +5,9 @@ Senior .NET Software Engineer • Cloud & DevOps enthusiast
 
 ### About me
 
+> [!WARNING]
+> If you have questions about where I am and what happened to me, check out the latest [article](https://exploding-kitten.com//2027/01-thoughts-on-asd) on the blog.
+
 My name is Dmytro Kyshchenko (he/him). I'm an experienced Senior .NET Software Engineer with over 6 years of hands-on expertise in designing, developing, and maintaining complex software projects. Committed to the highest code quality standards and dedicated to delivering clean, efficient, and maintainable code.
 
 Interested in DevOps and Cloud Infrastructure, I have experience configuring Azure DevOps pipelines, implementing Docker best practices, and resolving intricate low-level Kubernetes connectivity issues.
