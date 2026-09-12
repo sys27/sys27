@@ -222,6 +222,10 @@ plugins:
         GitHub: https://github.com/sys27
         LinkedIn: https://www.linkedin.com/in/dmytrokyshchenko/
         StackOverflow: https://stackoverflow.com/users/743754/exploding-kitten
+        Twitter: https://x.com/e_X_it
+        BlueSky: https://bsky.app/profile/exploding-kitten.bsky.social
+        Instagram: https://www.instagram.com/dmytrokyshchenko/
+        Reddit: https://www.reddit.com/user/Useful-Address-5117/
   - source: github:quartz-community/recent-notes
     enabled: true
     options:
