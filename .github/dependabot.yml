@@ -1,13 +1,37 @@
-# To get started with Dependabot version updates, you'll need to specify which
-# package ecosystems to update and where the package manifests are located.
-# Please see the documentation for all configuration options:
-# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "weekly"
     assignees:
       - "sys27"
+    groups:
+      # Separated so a risky third-party major cannot block ecosystem updates.
+      quartz-ecosystem:
+        applies-to: "version-updates"
+        patterns:
+          - "@quartz-community/*"
+          - "@quartz-themes/*"
+      # Isolated because a compiler major needs a tsconfig migration of its own.
+      typescript:
+        applies-to: "version-updates"
+        patterns:
+          - "typescript"
+      production-dependencies:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
+        exclude-patterns:
+          - "@quartz-community/*"
+          - "@quartz-themes/*"
+          - "typescript"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      ci-dependencies:
+        applies-to: "version-updates"
+        patterns:
+          - "*"
